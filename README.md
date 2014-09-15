@@ -3,6 +3,7 @@ travel
 
 webpage template
 
+Live preview : http://rezwansaki.github.io/travel/
 
 Project Name : Travel
    
