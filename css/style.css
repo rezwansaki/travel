@@ -1,0 +1,336 @@
+/* my own css code */
+
+/* temporary code */
+.show-grid {
+    border: 1px black solid;
+}
+
+/* main container */
+#main_container {
+    padding-top:0;
+    padding-botom:0;
+    background-color: #ebebeb;
+}
+
+
+/* inner container */
+#inner_container {
+    margin: 0 20px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* header container */
+.logo{
+    width: 22%;
+    margin-top: 10px;
+}
+
+/* navbar */
+.navbar-default {
+    border: none;
+    border-radius: 0;
+    background-color: #242424;
+    padding: 0;
+    margin: 10px 0 5px 0;
+}
+
+/* search */
+#search { 
+    padding: 2px 0;
+}
+
+.navbar-form .navbar-form {
+    padding: 0;
+}
+
+/* slider */
+#slider{
+    padding: 0;
+}
+
+.slide-fit {
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 0;
+}
+.bs-example{
+	margin: 0;
+}
+
+/* Content container */
+
+/* Menu Extra */
+#menu_extra {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    background-color: rgb(27, 63, 65);
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.btn-color{
+    background-color: rgb(27, 63, 65);
+    padding: 30px 0;
+    color: rgb(236, 247, 247);
+    border-right: none;
+    border-radius: 0;
+}
+
+.btn-default:hover{
+    background-color: rgb(46,114,118);
+    color: #d9d3d3;
+}
+
+/* content container */
+#content_container{
+    padding: 0 40px;
+}
+
+/* post */
+.post-title{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #626060;
+}
+
+.post-desc{
+    font-family:sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+.desc-italic {
+    font-family:serif;
+    font-size: 18px;
+    color: #9d9d9d;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+/* comment */
+.commenter-pic {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+.commenter-details {
+    padding: 30px 0 0 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* You will never travel alone */
+.center {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #817e7e;
+    width: 100%;
+    padding: 0 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* sign up */
+#sign_up {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+/* footer container */
+#footer_container {
+    margin: 5px 0 0 0;
+    padding: 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+#footer_bottom {
+    border-top: 1px rgb(32, 32, 32) solid;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+#copyright_info{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #918f8f;
+    text-align: left;
+}
+
+#social_media{
+    padding-left: 30%;
+    padding-top: 10px;
+}
+
+.footer-title{
+    color: #b4b4b4;
+    font-size: 14px;
+}
+.no-decoration {
+    list-style: none;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+/* link */
+a{
+    text-decoration: none;
+    color: #8d8c8c;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #b0dbf2;
+    font-size: 12px;
+}
+
+
+/* for another devices */
+
+/* for mobile devices */
+@media screen and (max-width: 767px) {
+    #commenter{
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px #bebebe solid;
+    }
+    .navbar-form {
+        border: none;
+        padding: 0;
+        margin: 10px 10px;
+    }
+    #sign_up{
+        padding: 0;
+        width: 80%;
+        
+    }
+    .commenter-pic {
+        padding: 0;
+        margin: 0 5px 0 0;
+    }
+    .commenter-pic img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .commenter-details {
+        padding: 0;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #commenter{
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px #bebebe solid;
+    }
+    .navbar-form {
+        border: none;
+        padding: 0;
+        margin: 10px 10px;
+    }
+    #sign_up{
+        padding: 0;
+        width: 80%;
+        
+    }
+    
+     /* slider */
+     .carousel{
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .carousel-control{
+        display: none;
+    }
+    .item{
+        background: #fff;    
+        text-align: center;
+        height: 152px !important;
+    }
+    .carousel-caption{
+        display: none;
+    }
+    .big-title{
+        padding: 20px 0 0 0;
+        font-size: 45px;
+    }
+    #footer_bottom{
+        padding: 5px;
+        border: none;
+    }
+    #footer_container{
+        padding: 5px;
+    }
+    #copyright_info{
+        padding: 0 0 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    #social_media{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .center{
+        width: 100%;
+        padding: 0 5%;
+        margin-bottom: 50px;
+    }
+    
+    #menu_extra{
+       background: none;
+        margin-bottom: 10px;
+    }
+    #menu_extra .btn{
+        padding: 25px;
+    }
+} /* /for mobile device */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){ 
+    #sign_up{
+        padding: 0;
+        width: 50%;
+    }
+    .commenter-pic {
+        padding: 0;
+        margin: 0 5px 0 0;
+    }
+
+    .commenter-details {
+        padding: 0;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .navbar-form .navbar-form {
+        padding: 0;
+    }
+}
+
+/* for mobile devices 
+@media screen and (max-width: 767px) {
+    
+} /* /for mobile device */
